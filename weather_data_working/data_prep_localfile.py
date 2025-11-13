@@ -6,7 +6,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # --- Local File Configuration ---
 # DEFINE THE LOCAL FILE PATH
-JSON_FILE_PATH = "data/knowledge-base.json" 
+JSON_FILE_PATH = "data/knowledge-base.json"
 
 # --- 1. Data Source: Local File Connector ---
 

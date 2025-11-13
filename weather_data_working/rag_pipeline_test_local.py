@@ -14,9 +14,11 @@ from langchain_core.documents import Document
 # FIX: Import StrOutputParser to force the output into a simple string
 from langchain_core.output_parsers import StrOutputParser
 
+
 # Import modular components (assuming data_prep.py is in the same directory)
-from weather_data_working.data_prep_localfile import create_and_chunk_documents
 from dotenv import load_dotenv
+
+from data_prep_localfile import create_and_chunk_documents
 
 # Load environment variables (for GOOGLE_API_KEY)
 load_dotenv()
